@@ -1,0 +1,73 @@
+    .toptitle {
+      color: black;
+      font: 3.5em "andalus", andalus;
+      text-align: center;
+      height: 5%
+    }
+      .maintext {
+        color: black;
+        font: 2.0em "andalus", andalus;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+      }
+      .button {
+        background-color: #F5F5DC; /* Beige */
+        border: none;
+        align: center;
+        color: black;
+        padding: 15px 32px;
+        margin-left:auto;
+        margin-right:auto;
+        text-decoration: none;
+        display: flex; justify-content: center;
+        font-size: 16px;
+}
+      .disclaimer {
+        color: red;
+        font: 1.0em "andalus", andalus;
+        text-align: center;
+      }
+      body {
+        /* The image used */
+        background-image: url(http://eskipaper.com/images/cloudy-sky-6.jpg);
+
+        /* Full height */
+         height: 100%;
+
+         /* Full width */
+          width: 100%;
+         /* Center and scale the image nicely */
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+      .JPlogo {
+        height: 50%;
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .Scales {
+        height: 5%;
+        width: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="intropage">
+    <img src="G:\My Drive\Personal\Project Modernity\HTML Code\Images\JPlogo.png"
+    class="JPlogo" alt="JPlogo">
+    <h1 class="toptitle"><strong>Welcome to the Justice Platform</strong></h1>
+	<p class="maintext">We put justice in your hands using the latest technology to video connect you with a lawyer in your state who will help you understand your rights and navigate your legal challenges</p>
+  <button class="button">Lawyer ASAP</button>
+  <img src="G:\My Drive\Personal\Project Modernity\HTML Code\Images\Scales.png"
+  class="Scales" alt="Scales">
+<p class="disclaimer">Justice Platform is NOT a law firm.  An offer of membership in our legal plan is neither an endorsement nor an advertisement for any individual attorney</p>
+  </div>
+  </body>
+</html>
